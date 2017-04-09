@@ -23,8 +23,7 @@ $mail->Body = $body;
 $mail->From = 'noreply@nycmultifamilyloans.com';
 $mail->FromName = 'NYC Multifamily Loans';
  // Add a recipient
-$mail->addAddress('GTOCONNOR@NYCMULTIFAMILYLOANS.COM');  
-$mail->addAddress('skysyrnyc@gmail.com');            
+$mail->addAddress('brood915@gmail.com');            
 
 $mail->addAttachment($_FILES['attachment']['tmp_name'], $_FILES['attachment']['name'], 'base64', $_FILES['attachment']['type']);         // Add attachments
 
